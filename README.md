@@ -5,3 +5,9 @@ command line software on macOS.
 
 All formulae in here **must** assume that this repo will eventually be publicly
 available.
+
+## Tapping
+
+Tap this repo by executing
+
+    brew tap colindean/watson git@github.ibm.com:colindean/homebrew-watson.git
