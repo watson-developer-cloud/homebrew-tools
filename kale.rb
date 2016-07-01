@@ -6,20 +6,17 @@ class Kale < Formula
 
   def install
     lib.install Dir["*"]
-  end
 
+    kale_jar = "kale-#{version}-standalone.jar"
+
+    bin.mkpath
+    (bin/"kale").write <<-EOS.undent
+      #!/bin/sh
+      java -jar #{[lib, kale_jar].join(File::Separator)}
+    EOS
+  end
 
   test do
-    kale_jar = "kale-#{version}-standalone.jar"
-    system "java", "-jar", [lib, kale_jar].join(File::Separator)
-  end
-
-  def caveats
-    kale_jar = "kale-#{version}-standalone.jar"
-    <<-EOS.undent
-      Add the following to your .bashrc or .bash_profile, as kale does not install an executable:
-
-      alias kale="java -jar #{[lib, kale_jar].join(File::Separator)}"
-    EOS
+    system "kale"
   end
 end
