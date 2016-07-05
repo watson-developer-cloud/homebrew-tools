@@ -1,8 +1,9 @@
 class Kale < Formula
   desc "Provisions & configures WDC Retrieve & Rank, Document Conversion services"
   homepage "https://github.com/IBM-Watson/kale"
-  url "https://github.com/IBM-Watson/kale/releases/download/v1.5.1/kale-1.5.1-standalone.jar"
-  sha256 "75b53654fbec0638156a0b1b5054c0d14b70809c397d0c44135feddd3f669cc8"
+  version "1.6.0"
+  sha256 "078941b5b678cf2284cfb4fb3fc6cb137f100c6f6628e23bcdec6dbf67775285"
+  url "https://github.com/IBM-Watson/kale/releases/download/v#{version}/kale-#{version}-standalone.jar"
 
   def install
     lib.install Dir["*"]
