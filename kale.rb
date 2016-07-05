@@ -13,7 +13,7 @@ class Kale < Formula
     bin.mkpath
     (bin/"kale").write <<-EOS.undent
       #!/bin/sh
-      java -jar #{[lib, kale_jar].join(File::Separator)}
+      java -jar #{[lib, kale_jar].join(File::Separator)} "$@"
     EOS
   end
 
