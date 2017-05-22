@@ -1,8 +1,7 @@
 class Wdscli < Formula
-  desc "Command line interface to the IBM Watson Discovery Service API"
+  desc "Command-line interface to the IBM Watson Discovery Service API"
   homepage "https://github.com/bruceadams/wdscli"
-  version "2.2.6"
-  url "https://github.com/bruceadams/wdscli/releases/download/#{version}/wdscli.macos"
+  url "https://github.com/bruceadams/wdscli/releases/download/2.2.6/wdscli.macos"
   sha256 "09ebd59f5c90fcaccacd73154a4e481234da6b74c55c5813a777744e54357a7f"
 
   def install
