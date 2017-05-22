@@ -1,5 +1,5 @@
 class DataCrawler < Formula
-  desc "A crawler that connects data repositories to Watson Developer Cloud services"
+  desc "Uploads data repositories to Watson Developer Cloud services"
   homepage "https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/"
   url "https://ibm.biz/watson-crawler-zip"
   version "2.0.0"
@@ -13,6 +13,6 @@ class DataCrawler < Formula
   end
 
   test do
-    system "crawler --help"
+    system "#{bin}/crawler --help"
   end
 end
