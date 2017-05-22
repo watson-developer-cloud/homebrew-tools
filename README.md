@@ -11,5 +11,5 @@ Tap this repo by executing
 
 ## Note for IBMers
 
-All formulae in here **must** command line tools that are _publicly_ and _freely_ available.
+All formulae in here **must** be command line tools that are _publicly_ and _freely_ available.
 However, the tools may be associated with services that are not free services.
