@@ -1,4 +1,4 @@
-# homebrew-watson
+# Homebrew formulae for Watson Developer Cloud tools
 
 This repo is a tap for [Homebrew](http://brew.sh), the best way to install
 command line software on macOS.
