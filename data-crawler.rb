@@ -5,6 +5,8 @@ class DataCrawler < Formula
   version "2.0.0"
   sha256 "f5516e1ccce056ba8847eb275584e920c3ee2938d42fe5e380a2d563dcaf8d0f"
 
+  depends_on :java
+
   def install
     rm Dir["bin/*.bat"] # unused on osx
     prefix.install "share"
