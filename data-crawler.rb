@@ -1,9 +1,9 @@
 class DataCrawler < Formula
   desc "A crawler that connects data repositories to Watson Developer Cloud services"
   homepage "https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/"
-  url "http://ibm.biz/watson-crawler-zip"
-  version "1.3.0"
-  sha256 "47181a13e7851a2a2e4085b4acf6cbb7398bccdca8b0cb678c1db15402ceffb0"
+  url "https://ibm.biz/watson-crawler-zip"
+  version "2.0.0"
+  sha256 "f5516e1ccce056ba8847eb275584e920c3ee2938d42fe5e380a2d563dcaf8d0f"
 
   def install
     rm Dir["bin/*.bat"] # unused on osx
