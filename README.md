@@ -7,7 +7,7 @@ command line software on macOS.
 
 Tap this repo by executing
 
-    brew tap colindean/watson git@github.ibm.com:colindean/homebrew-watson.git
+    brew tap watson-developer-cloud/tools
 
 ## Note for IBMers
 
