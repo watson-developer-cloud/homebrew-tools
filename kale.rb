@@ -1,8 +1,9 @@
 class Kale < Formula
   desc "Provisions & configures WDC Retrieve & Rank, Document Conversion services"
   homepage "https://github.com/IBM-Watson/kale"
-  sha256 "81e0aade9a7dc2ff52fae6a0cff69dbbc811c3a935cf9f0587852c3426eefff1"
-  url "https://github.com/IBM-Watson/kale/releases/download/v1.8.0/kale-1.8.0-standalone.jar"
+  version "1.8.1"
+  sha256 "a20b1a85d398b23ed4bade1b81c1cd62f01e102ae8c89363e8b7dd9a5c80551e"
+  url "https://github.com/IBM-Watson/kale/releases/download/v#{version}/kale-#{version}-standalone.jar"
 
   depends_on :java
 
