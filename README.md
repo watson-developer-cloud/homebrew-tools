@@ -1,7 +1,11 @@
 # Homebrew formulae for Watson Developer Cloud tools
 
 This repo is a tap for [Homebrew](http://brew.sh), the best way to install
-command line software on macOS.
+command line software on macOS. 
+
+_Taps_ are Git repositories that add _formulae_, package definitions, to Homebrew. 
+See the [Homebrew glossary](https://github.com/Homebrew/brew/blob/master/docs/Formula-Cookbook.md#homebrew-terminology)
+for clarification and more terms.
 
 ## Tapping
 
