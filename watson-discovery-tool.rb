@@ -1,8 +1,8 @@
 class WatsonDiscoveryTool < Formula
   desc "Command-line interface to the IBM Watson Discovery Service API"
   homepage "https://github.com/bruceadams/wdscli"
-  url "https://github.com/bruceadams/wdscli/releases/download/2.2.6/wdscli.macos"
-  sha256 "09ebd59f5c90fcaccacd73154a4e481234da6b74c55c5813a777744e54357a7f"
+  url "https://github.com/bruceadams/wdscli/releases/download/2.2.8/wdscli.macos"
+  sha256 "026c992e9782e7c232251a12abe7ea02f67640e1fd00ac6f89d010fea46b273c"
 
   def install
     bin.install "wdscli.macos" => "watson-discovery-tool"
