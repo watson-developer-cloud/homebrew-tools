@@ -2,8 +2,8 @@ class DataCrawler < Formula
   desc "Uploads data repositories to Watson Developer Cloud services"
   homepage "https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/"
   url "https://ibm.biz/watson-crawler-zip"
-  version "2.0.0"
-  sha256 "f5516e1ccce056ba8847eb275584e920c3ee2938d42fe5e380a2d563dcaf8d0f"
+  version "2.1.0"
+  sha256 "f383182fc34a7eb81af7e3a63f1055912a713373354385ef341bfd8ef6c0fd3c"
 
   depends_on :java
 
