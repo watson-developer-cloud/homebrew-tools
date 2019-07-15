@@ -1,5 +1,7 @@
 # Homebrew formulae for Watson Developer Cloud tools
 
+## DEPRECATED: this repo is no longer actively maintained. It can still be used as reference, but may contain outdated or unpatched code. 
+
 This repo is a tap for [Homebrew](http://brew.sh), the best way to install
 command line software on macOS. 
 
